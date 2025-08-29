@@ -1,0 +1,14 @@
+[package]
+name = "tm"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+tm-core = { path = "../crates/tm-core" }
+tm-ui = { path = "../crates/tm-ui" }
+tm-gui = { path = "../crates/tm-gui" }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+slug = { workspace = true }

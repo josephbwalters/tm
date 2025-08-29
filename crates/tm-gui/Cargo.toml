@@ -1,0 +1,13 @@
+[package]
+name = "tm-gui"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+eframe = { version = "0.27", default-features = true }
+egui = "0.27"
+egui_extras = { version = "0.27", features = ["default"] }
+tm-core = { path = "../tm-core" }
+time = { version = "0.3", features = ["formatting", "parsing"] }
+slug = { workspace = true }

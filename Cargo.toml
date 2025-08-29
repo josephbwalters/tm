@@ -1,0 +1,34 @@
+[workspace]
+members = ["crates/tm-core", "crates/tm-ui", "crates/tm-gui", "crates/tm-plugin-host", "tm"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+authors = ["Your Name <you@example.com>"]
+repository = "https://github.com/yourname/vim-task-tracker"
+
+[workspace.dependencies]
+anyhow = "1"
+thiserror = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+rusqlite = { version = "0.31", features = ["bundled", "modern_sqlite"] }
+ulid = "1"
+time = { version = "0.3", features = ["macros", "serde-human-readable"] }
+directories = "5"
+notify = "6"
+walkdir = "2"
+parking_lot = "0.12"
+# UI
+ratatui = "0.28"
+crossterm = "0.27"
+# CLI
+clap = { version = "4", features = ["derive"] }
+# Plugins
+mlua = { version = "0.10", features = ["lua54", "vendored"] }
+# Misc
+regex = "1"
+slug = "0.1.5"
+

@@ -1,0 +1,11 @@
+[package]
+name = "tm-ui"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+ratatui = { workspace = true }
+crossterm = { workspace = true }
+tm-core = { path = "../tm-core" }
+slug = { workspace = true }

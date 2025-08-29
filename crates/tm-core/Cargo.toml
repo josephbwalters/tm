@@ -1,0 +1,22 @@
+[package]
+name = "tm-core"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+serde_json = { workspace = true }
+rusqlite = { workspace = true }
+ulid = { workspace = true }
+time = { workspace = true }
+directories = { workspace = true }
+notify = { workspace = true }
+walkdir = { workspace = true }
+regex = { workspace = true }
+slug = { workspace = true }
+parking_lot = { workspace = true }
+mlua = { version = "0.10", features = ["lua54", "serialize"] }  # <-- add
+
