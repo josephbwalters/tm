@@ -1,5 +1,25 @@
 # Task Manager (tm, tmtui, tmgui)
 
+## Installation
+TO BE DETERMINED!
+
+Objective is a single line install via brew, choco, etc
+
+## Usage Guide
+### CLI
+TBD - but should end up like some of the following commands for v1
+- `tm add Task Name`
+- `tm new Task Name`
+- `tm new project ProjectName`
+- `tm new -p ProjectName`
+hoping to keep the syntax fast - the faster someone can create a task - the better!
+
+### TUI
+TBD
+
+### GUI
+Mostly same as TUI, but also has buttons :smile:
+
 ## Features
 
 - ⚡ **Blazing fast startup** — sub-250ms even with thousands of tasks. Markdown for storage + SQLite/FTS for speed.
