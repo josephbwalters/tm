@@ -18,5 +18,4 @@ walkdir = { workspace = true }
 regex = { workspace = true }
 slug = { workspace = true }
 parking_lot = { workspace = true }
-mlua = { version = "0.10", features = ["lua54", "serialize"] }  # <-- add
-
+mlua = { version = "0.10", default-features = false, features = ["lua54", "serialize", "vendored"] }
